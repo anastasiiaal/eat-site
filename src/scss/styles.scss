@@ -1,0 +1,8 @@
+// to override variables => got to do it BEFORE import
+// e.g.
+// $warning: yellow;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// custom css goes after import
+@import "components/header"
