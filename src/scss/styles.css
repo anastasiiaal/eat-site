@@ -11997,6 +11997,18 @@ section.craft {
   background-image: url("../assets/sepia-texture2.jpg");
 }
 
+div#carouselExampleIndicators {
+  height: 80vh;
+}
+div#carouselExampleIndicators .carousel-inner, div#carouselExampleIndicators .carousel-item {
+  height: 80vh;
+}
+div#carouselExampleIndicators .carousel-item > img {
+  height: 80vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 section.craft.image-galery {
   height: -moz-max-content;
   height: max-content;

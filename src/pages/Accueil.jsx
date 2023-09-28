@@ -22,7 +22,7 @@ export default function Accueil() {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active" data-bs-interval="5000">
-                        <img src={carouselOne} className="d-block w-100" alt="..." />
+                        <img src={carouselOne} className="d-block w-100" alt="Préparation des plats" />
                         <div className="carousel-caption d-none d-md-block">
                             <h1>Estaminet, Aromes et Tentations</h1>
                             <p className="my-4">Une cuisine traditionnelle Française et plus !</p>
@@ -30,7 +30,7 @@ export default function Accueil() {
                         </div>
                     </div>
                     <div className="carousel-item" data-bs-interval="5000">
-                        <img src={carouselTwo} className="d-block w-100" alt="..." />
+                        <img src={carouselTwo} className="d-block w-100" alt="Assiettes servies" />
                         <div className="carousel-caption d-none d-md-block">
                             <h1>Estaminet, Aromes et Tentations</h1>
                             <p className="my-4">Patricia & Sébastien vous souhaitent la BIENVENUE !</p>
@@ -38,7 +38,7 @@ export default function Accueil() {
                         </div>
                     </div>
                     <div className="carousel-item" data-bs-interval="5000">
-                        <img src={carouselThree} className="d-block w-100" alt="..." />
+                        <img src={carouselThree} className="d-block w-100" alt="Assiette des pâtes" />
                         <div className="carousel-caption d-none d-md-block">
                             <h1>Estaminet, Aromes et Tentations</h1>
                             <p className="my-4">On vous attend pour partager un vrai goût provençal</p>

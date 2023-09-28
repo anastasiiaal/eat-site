@@ -1,3 +1,16 @@
+div#carouselExampleIndicators {
+    height: 80vh;
+
+    .carousel-inner, .carousel-item {
+        height: 80vh;
+    }
+
+    .carousel-item > img {
+        height: 80vh;
+        object-fit: cover;
+    }
+}
+
 section.craft.image-galery {
 
     .img-grid-row img {
