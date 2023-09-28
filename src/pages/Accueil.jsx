@@ -23,7 +23,7 @@ export default function Accueil() {
                 <div className="carousel-inner">
                     <div className="carousel-item active" data-bs-interval="5000">
                         <img src={carouselOne} className="d-block w-100" alt="Préparation des plats" />
-                        <div className="carousel-caption d-none d-md-block">
+                        <div className="mb-5 mb-md-0 carousel-caption">
                             <h1>Estaminet, Aromes et Tentations</h1>
                             <p className="my-4">Une cuisine traditionnelle Française et plus !</p>
                             <a href="." type="button" className="btn btn-warning mb-5 btn-lg">Réserver une table</a>
@@ -31,7 +31,7 @@ export default function Accueil() {
                     </div>
                     <div className="carousel-item" data-bs-interval="5000">
                         <img src={carouselTwo} className="d-block w-100" alt="Assiettes servies" />
-                        <div className="carousel-caption d-none d-md-block">
+                        <div className="mb-5 mb-md-0 carousel-caption">
                             <h1>Estaminet, Aromes et Tentations</h1>
                             <p className="my-4">Patricia & Sébastien vous souhaitent la BIENVENUE !</p>
                             <a href="." type="button" className="btn btn-warning mb-5 btn-lg">Réserver une table</a>
@@ -39,7 +39,7 @@ export default function Accueil() {
                     </div>
                     <div className="carousel-item" data-bs-interval="5000">
                         <img src={carouselThree} className="d-block w-100" alt="Assiette des pâtes" />
-                        <div className="carousel-caption d-none d-md-block">
+                        <div className="mb-5 mb-md-0 carousel-caption">
                             <h1>Estaminet, Aromes et Tentations</h1>
                             <p className="my-4">On vous attend pour partager un vrai goût provençal</p>
                             <a href="." type="button" className="btn btn-warning mb-5 btn-lg">Réserver une table</a>
@@ -58,10 +58,10 @@ export default function Accueil() {
 
             <div className="container container-p text-center">
                 <div className="row g-16 d-flex align-items-center">
-                    <div className="col-6 px-4">
+                    <div className="col-12 col-md-6 px-md-4">
                         <img src={glasses} alt="Verres" className="img-fluid" />
                     </div>
-                    <div className="col-6 px-4 text-wrapper text-start">
+                    <div className="col-12 col-md-6 px-4 text-wrapper text-md-start pt-5 pt-md-0">
                         <h2>Notre Restaurant E.A.T. Estaminet, Arômes, Tentations…</h2>
                         <p className="py-4">
                             E.A.T. “Estaminet, Arômes et tentations” est un restaurant proposant une cuisine traditionnelle française revisitée, élaborée par nos soins à base de produits frais et de saison ; nos suggestions sont renouvelées fréquemment.Notre salle à manger de petite taille mais chaleureuse, où se mélange l’ancien et le moderne, intègre une cuisine ouverte.
@@ -77,38 +77,36 @@ export default function Accueil() {
             <section className="craft image-galery">
                 <div className="container container-p">
                     <h2 className="text-center mb-4">Galerie photo</h2>
-                    {/* <div className="image-wrapper"> */}
-                        <div className="d-flex gap-4 flex-wrap justify-content-center img-grid-row h">
-                            <div className="img-box g-col-4">
-                                <img src={img1} alt="Galery image" />
-                            </div>
-                            <div className="img-box g-col-4">
-                                <img src={img2} alt="Galery image" />
-                            </div>
-                            <div className="img-box g-col-4">
-                                <img src={img3} alt="Galery image" />
-                            </div>
+                    <div className="d-flex gap-4 flex-wrap justify-content-center img-grid-row h">
+                        <div className="img-box g-col-4">
+                            <img src={img1} alt="Galery image" />
                         </div>
-                        <div className="d-flex gap-4 flex-wrap justify-content-center img-grid-row">
-                            <div className="img-box g-col-7">
-                                <img src={img4} alt="Galery image" />
-                            </div>
-                            <div className="img-box g-col-5">
-                                <img src={img5} alt="Galery image" />
-                            </div>
+                        <div className="img-box g-col-4">
+                            <img src={img2} alt="Galery image" />
                         </div>
-                        <div className="d-flex gap-4 flex-wrap justify-content-center img-grid-row">
-                            <div className="img-box g-col-3">
-                                <img src={img6} alt="Galery image" />
-                            </div>
-                            <div className="img-box g-col-5">
-                                <img src={img7} alt="Galery image" />
-                            </div>
-                            <div className="img-box g-col-4">
-                                <img src={img8} alt="Galery image" />
-                            </div>
+                        <div className="img-box g-col-4">
+                            <img src={img3} alt="Galery image" />
                         </div>
-                    {/* </div> */}
+                    </div>
+                    <div className="d-flex gap-4 flex-wrap justify-content-center img-grid-row">
+                        <div className="img-box g-col-7">
+                            <img src={img4} alt="Galery image" />
+                        </div>
+                        <div className="img-box g-col-5">
+                            <img src={img5} alt="Galery image" />
+                        </div>
+                    </div>
+                    <div className="d-flex gap-4 flex-wrap justify-content-center img-grid-row">
+                        <div className="img-box g-col-3">
+                            <img src={img6} alt="Galery image" />
+                        </div>
+                        <div className="img-box g-col-5">
+                            <img src={img7} alt="Galery image" />
+                        </div>
+                        <div className="img-box g-col-4">
+                            <img src={img8} alt="Galery image" />
+                        </div>
+                    </div>
                 </div>
             </section>
         </>

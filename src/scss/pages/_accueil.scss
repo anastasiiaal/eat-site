@@ -9,12 +9,17 @@ div#carouselExampleIndicators {
         height: 80vh;
         object-fit: cover;
     }
+
+    /* ce code aurait remonté le texte sur carousel */
+    // .carousel-caption {
+    //     bottom: 15%
+    // }
 }
 
 section.craft.image-galery {
 
     .img-grid-row img {
-        height: 300px;
+        max-height: 300px;
         margin-bottom: 20px;
     }    
 
@@ -34,4 +39,4 @@ section.craft.image-galery {
             transition: all .2s ease-in-out;
         }
     }
-} 
+}
