@@ -1,8 +1,14 @@
-# React + Vite
+# Restaurant EAT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ceci est un projet de cours dont les buts sont de :
+- respecter des principes d’ergonomie cognitive et de hiérarchisation des informations
+- utiliser l'outil de création de Wirefreme tel que Figma
+- utiliser des composants et des classes de Bootstrap
 
-Currently, two official plugins are available:
+Le site en construction est disponible via [ce lien](https://helpful-churros-e04aeb.netlify.app/).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Pour lancer le projet en local:
+```
+    npm install
+    npm run dev
+```
