@@ -11978,4 +11978,18 @@ textarea.form-control-lg {
 }
 .logo {
   margin-right: 30px;
+}
+
+.container.container-p {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+section.craft {
+  background-image: url("../assets/sepia-texture2.jpg");
+}
+
+.img-grid-row {
+  height: 300px;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=styles.css.map */
