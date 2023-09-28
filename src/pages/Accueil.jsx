@@ -26,7 +26,7 @@ export default function Accueil() {
                         <div className="carousel-caption d-none d-md-block">
                             <h1>Estaminet, Aromes et Tentations</h1>
                             <p className="my-4">Une cuisine traditionnelle Française et plus !</p>
-                            <button type="button" className="btn btn-warning mb-5 btn-lg">Réserver une table</button>
+                            <a href="." type="button" className="btn btn-warning mb-5 btn-lg">Réserver une table</a>
                         </div>
                     </div>
                     <div className="carousel-item" data-bs-interval="5000">
@@ -34,7 +34,7 @@ export default function Accueil() {
                         <div className="carousel-caption d-none d-md-block">
                             <h1>Estaminet, Aromes et Tentations</h1>
                             <p className="my-4">Patricia & Sébastien vous souhaitent la BIENVENUE !</p>
-                            <button type="button" className="btn btn-warning mb-5 btn-lg">Réserver une table</button>
+                            <a href="." type="button" className="btn btn-warning mb-5 btn-lg">Réserver une table</a>
                         </div>
                     </div>
                     <div className="carousel-item" data-bs-interval="5000">
@@ -42,7 +42,7 @@ export default function Accueil() {
                         <div className="carousel-caption d-none d-md-block">
                             <h1>Estaminet, Aromes et Tentations</h1>
                             <p className="my-4">On vous attend pour partager un vrai goût provençal</p>
-                            <button type="button" className="btn btn-warning mb-5 btn-lg">Réserver une table</button>
+                            <a href="." type="button" className="btn btn-warning mb-5 btn-lg">Réserver une table</a>
                         </div>
                     </div>
                 </div>

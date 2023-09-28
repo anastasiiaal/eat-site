@@ -11980,6 +11980,14 @@ textarea.form-control-lg {
   margin-right: 30px;
 }
 
+footer {
+  background-color: #343A40;
+}
+footer .container {
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
 .container.container-p {
   padding-top: 70px;
   padding-bottom: 70px;
