@@ -58,14 +58,15 @@ export default function Accueil() {
 
             <div className="container container-p text-center">
                 <div className="row g-16 d-flex align-items-center">
-                    <div className="col-6 px-2">
+                    <div className="col-6 px-4">
                         <img src={glasses} alt="Verres" className="img-fluid" />
                     </div>
                     <div className="col-6 px-4 text-wrapper text-start">
                         <h2>Notre Restaurant E.A.T. Estaminet, Arômes, Tentations…</h2>
                         <p className="py-4">
                             E.A.T. “Estaminet, Arômes et tentations” est un restaurant proposant une cuisine traditionnelle française revisitée, élaborée par nos soins à base de produits frais et de saison ; nos suggestions sont renouvelées fréquemment.Notre salle à manger de petite taille mais chaleureuse, où se mélange l’ancien et le moderne, intègre une cuisine ouverte.
-
+                            <br />
+                            <br />
                             Et pour les beaux jours, une terrasse colorée et fraiche vous accueillera dans une petite rue piétonne, en plein cœur historique et touristique de la belle ville d’Avignon.
                         </p>
                         <a href="." type="button" className="btn btn-warning btn-lg">Voir la carte</a>
@@ -73,38 +74,38 @@ export default function Accueil() {
                 </div>
             </div>
 
-            <section className="craft">
+            <section className="craft image-galery">
                 <div className="container container-p">
                     <h2 className="text-center mb-4">Galerie photo</h2>
                     {/* <div className="image-wrapper"> */}
                         <div className="d-flex gap-4 flex-wrap justify-content-center img-grid-row h">
-                            <div className="g-col-4">
-                                <img src={img1} alt="" />
+                            <div className="img-box g-col-4">
+                                <img src={img1} alt="Galery image" />
                             </div>
-                            <div className="g-col-4">
-                                <img src={img2} alt="" />
+                            <div className="img-box g-col-4">
+                                <img src={img2} alt="Galery image" />
                             </div>
-                            <div className="g-col-4">
-                                <img src={img3} alt="" />
-                            </div>
-                        </div>
-                        <div className="d-flex gap-4 flex-wrap justify-content-center img-grid-row">
-                            <div className="g-col-7">
-                                <img src={img4} alt="" />
-                            </div>
-                            <div className="g-col-5">
-                                <img src={img5} alt="" />
+                            <div className="img-box g-col-4">
+                                <img src={img3} alt="Galery image" />
                             </div>
                         </div>
                         <div className="d-flex gap-4 flex-wrap justify-content-center img-grid-row">
-                            <div className="g-col-3">
-                                <img src={img6} alt="" />
+                            <div className="img-box g-col-7">
+                                <img src={img4} alt="Galery image" />
                             </div>
-                            <div className="g-col-5">
-                                <img src={img7} alt="" />
+                            <div className="img-box g-col-5">
+                                <img src={img5} alt="Galery image" />
                             </div>
-                            <div className="g-col-4">
-                                <img src={img8} alt="" />
+                        </div>
+                        <div className="d-flex gap-4 flex-wrap justify-content-center img-grid-row">
+                            <div className="img-box g-col-3">
+                                <img src={img6} alt="Galery image" />
+                            </div>
+                            <div className="img-box g-col-5">
+                                <img src={img7} alt="Galery image" />
+                            </div>
+                            <div className="img-box g-col-4">
+                                <img src={img8} alt="Galery image" />
                             </div>
                         </div>
                     {/* </div> */}

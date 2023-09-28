@@ -2,7 +2,7 @@ import logoImg from "/src/assets/logo.svg"
 
 export default function Header() {
     return (
-        <nav className="navbar navbar-expand-sm bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
+        <nav className="navbar navbar-expand-md bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
             <div className="container">
                 <a className="navbar-brand" href=".">
                     <img className="logo" src={logoImg} alt="Logo" />

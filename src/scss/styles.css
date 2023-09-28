@@ -11997,7 +11997,23 @@ section.craft {
   background-image: url("../assets/sepia-texture2.jpg");
 }
 
-.img-grid-row {
+section.craft.image-galery {
+  height: -moz-max-content;
+  height: max-content;
+}
+section.craft.image-galery .img-grid-row img {
   height: 300px;
   margin-bottom: 20px;
+}
+section.craft.image-galery .img-box {
+  overflow: hidden !important;
+  display: inline-block;
+  transition: all 0.2s ease-in-out;
+}
+section.craft.image-galery .img-box:hover > img {
+  transform: scale(1.05);
+}
+section.craft.image-galery .img-box img {
+  display: block;
+  transition: all 0.2s ease-in-out;
 }/*# sourceMappingURL=styles.css.map */

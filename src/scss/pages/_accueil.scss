@@ -1,0 +1,24 @@
+section.craft.image-galery {
+
+    .img-grid-row img {
+        height: 300px;
+        margin-bottom: 20px;
+    }    
+
+    height: max-content;
+
+    .img-box {
+        overflow: hidden !important;
+        display: inline-block;
+        transition: all .2s ease-in-out;
+    
+        &:hover > img {
+            transform: scale(1.05);
+        }
+    
+        img {
+            display: block;
+            transition: all .2s ease-in-out;
+        }
+    }
+} 
