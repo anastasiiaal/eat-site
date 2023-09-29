@@ -11997,6 +11997,14 @@ section.craft {
   background-image: url("../assets/sepia-texture2.jpg");
 }
 
+body {
+  color: #343A40;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+  font-weight: bold;
+}
+
 .sub-header {
   background-position: center;
   background-size: cover;
@@ -12035,4 +12043,21 @@ section.craft.image-galery .img-box:hover > img {
 section.craft.image-galery .img-box img {
   display: block;
   transition: all 0.2s ease-in-out;
+}
+
+#carte .container {
+  padding-top: 65px;
+  padding-bottom: 120px;
+}
+#carte .carte-wrapper {
+  padding: 60px 50px 100px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+#carte h3, #carte .h3 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+#carte p {
+  margin-bottom: 13px;
 }/*# sourceMappingURL=styles.css.map */

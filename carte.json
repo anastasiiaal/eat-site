@@ -1,0 +1,30 @@
+{
+    "mois": "Septembre",
+    "starters": {
+        "prix": 14,
+        "items": [
+           "Tartare de thon et légumes croquants au sésame",
+           "Farandole de petits farcis",
+           "Tarte fine de courgette et mozzarella",
+           "Pastilla de St. Marcellin aux amandes et miel"
+        ]
+    },
+    "main": {
+        "items": [
+           "Noix d’entrecôte « Uruguay » grillée, beurre au pimentón de la Vera, légumes rôtis – 26 €",
+           "Marmite de poisson « comme une bouillabaisse », sauce rouille – 23 €",
+           "Tagliatelles fraîches crème de basilic et tomates confites – 16 €",
+           "Suprême de poulet « Français » en croûte de Parmesan, purée d’artichaud – 22 €"
+        ]
+    },
+    "dessert": {
+        "prix": 8,
+        "items": [
+           "Assiette de fromage AOC ou AOP, selon arrivage",
+           "Crème brulée au romarin",
+           "Fondant au chocolat amer, glace noisette",
+           "Meringue, crème de Mascarpone aux prunes et framboises",
+           "Profiteroles aux figues, glace vanille"
+        ]
+    }
+}
