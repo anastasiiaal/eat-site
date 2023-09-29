@@ -19,13 +19,13 @@ div#carouselExampleIndicators {
 section.craft.image-galery {
 
     .img-grid-row img {
-        max-height: 300px;
         margin-bottom: 20px;
     }    
 
     height: max-content;
 
     .img-box {
+        max-height: 300px;
         overflow: hidden !important;
         display: inline-block;
         transition: all .2s ease-in-out;

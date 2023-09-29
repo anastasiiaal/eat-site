@@ -4,9 +4,6 @@ import { Link, useLocation } from "react-router-dom"
 export default function Header() {
     const location = useLocation().pathname
 
-    
-
-    console.log(location);
     return (
         <nav className="navbar navbar-expand-md bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
             <div className="container">

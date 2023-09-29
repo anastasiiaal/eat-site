@@ -11997,6 +11997,12 @@ section.craft {
   background-image: url("../assets/sepia-texture2.jpg");
 }
 
+.sub-header {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 div#carouselExampleIndicators {
   height: 80vh;
   /* ce code aurait remonté le texte sur carousel */
@@ -12015,10 +12021,10 @@ section.craft.image-galery {
   height: max-content;
 }
 section.craft.image-galery .img-grid-row img {
-  max-height: 300px;
   margin-bottom: 20px;
 }
 section.craft.image-galery .img-box {
+  max-height: 300px;
   overflow: hidden !important;
   display: inline-block;
   transition: all 0.2s ease-in-out;
