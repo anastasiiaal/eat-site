@@ -1,5 +1,5 @@
 export default function Reservation () {
     return (
-        <h1>Reservation page</h1>
+        <h1 className="text-center py-5">Reservation page</h1>
     )
 }
