@@ -1,17 +1,29 @@
-import { useState } from 'react'
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+  RouterProvider
+} from 'react-router-dom'
+import Layout from './components/Layout'
 import Accueil from './pages/Accueil'
-import Header from './components/Header'
-import Footer from './components/Footer'
+import LaCarte from './pages/LaCarte'
+import Contact from './pages/Contact'
+import Reservation from './pages/Reservation'
 
 
 function App() {
 
+  const router = createBrowserRouter(createRoutesFromElements(
+    <Route path="/" element={ <Layout /> }>
+      <Route index element={ <Accueil /> } />
+      <Route path="carte" element={<LaCarte />} />
+      <Route path="contact" element={<Contact />} />
+      <Route path="reservation" element={<Reservation />} />
+    </Route>
+  ))
+
   return (
-    <>
-      <Header />
-      <Accueil />
-      <Footer />
-    </>
+    <RouterProvider router={router} />
   )
 }
 

@@ -77,7 +77,7 @@ export default function Accueil() {
             <section className="craft image-galery">
                 <div className="container container-p">
                     <h2 className="text-center mb-4">Galerie photo</h2>
-                    <div className="d-flex gap-4 flex-wrap justify-content-center img-grid-row h">
+                    <div className="d-flex gap-4 flex-wrap justify-content-center img-grid-row mb-4">
                         <div className="img-box g-col-4">
                             <img src={img1} alt="Galery image" />
                         </div>
@@ -88,7 +88,7 @@ export default function Accueil() {
                             <img src={img3} alt="Galery image" />
                         </div>
                     </div>
-                    <div className="d-flex gap-4 flex-wrap justify-content-center img-grid-row">
+                    <div className="d-flex gap-4 flex-wrap justify-content-center img-grid-row mb-4">
                         <div className="img-box g-col-7">
                             <img src={img4} alt="Galery image" />
                         </div>
@@ -96,7 +96,7 @@ export default function Accueil() {
                             <img src={img5} alt="Galery image" />
                         </div>
                     </div>
-                    <div className="d-flex gap-4 flex-wrap justify-content-center img-grid-row">
+                    <div className="d-flex gap-4 flex-wrap justify-content-center img-grid-row mb-4">
                         <div className="img-box g-col-3">
                             <img src={img6} alt="Galery image" />
                         </div>

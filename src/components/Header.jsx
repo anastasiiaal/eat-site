@@ -1,6 +1,12 @@
 import logoImg from "/src/assets/logo.svg"
+import { Link, useLocation } from "react-router-dom"
 
 export default function Header() {
+    const location = useLocation().pathname
+
+    
+
+    console.log(location);
     return (
         <nav className="navbar navbar-expand-md bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
             <div className="container">
@@ -13,10 +19,30 @@ export default function Header() {
 
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                        <a className="nav-link px-4 active" aria-current="page" href=".">Accueil</a>
-                        <a className="nav-link px-4" href=".">La carte</a>
-                        <a className="nav-link px-4" href=".">Contact</a>
-                        <a className="nav-link px-4" href=".">Réserver</a>
+                        <Link 
+                            to="." 
+                            className={`nav-link px-4 ${location === "/" ? "active" : ""}`} aria-current="page"
+                        >
+                            Accueil
+                        </Link>
+                        <Link 
+                            to="carte" 
+                            className={`nav-link px-4 ${location === "/carte" ? "active" : ""}`}
+                        >
+                            La carte
+                        </Link>
+                        <Link 
+                            to="contact" 
+                            className={`nav-link px-4 ${location === "/contact" ? "active" : ""}`}
+                        >
+                            Contact
+                        </Link>
+                        <Link 
+                            to="reservation" 
+                            className={`nav-link px-4 ${location === "/reservation" ? "active" : ""}`}
+                        >
+                            Réserver
+                        </Link>
                     </div>
                 </div>
             </div>
