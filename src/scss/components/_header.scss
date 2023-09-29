@@ -1,5 +1,19 @@
-header {
+#header {
     .logo {
         margin-right: 30px;
+    }
+
+    .navbar-nav .nav-link.active {
+        position: relative;
+
+        &:after {
+            position: absolute;
+            content: "";
+            width: 70%;
+            height: 3px;
+            bottom: -3px;
+            left: 15%;
+            background-color: #FFAD1Bcc;
+        }
     }
 }
